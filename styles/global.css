@@ -40,3 +40,18 @@ a:hover {
 h1, h2, h3 {
     color: inherit;
 }
+
+.container {
+    max-width: 80rem;
+    padding-inline: 2rem;
+    margin-inline: auto;
+}
+
+/* Utility-first */
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
